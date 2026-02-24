@@ -8,7 +8,11 @@
   </head>
   <body>
     <script> 
-        document.body.style = "background: #ccbeae";
+        let color = "#ccbeae";
+  if ( window.innerWidth < 400 ) {
+    color = "#e7c396";
+  }
+  document.body.style = "background: " + color;
     </script>
 
      <h1>Lauryn Hill</h1>
