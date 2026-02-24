@@ -3,6 +3,6 @@ window.onload = (event) => {
   if ( window.innerWidth < 500 ) {
     color = "#e7c396";
   }
-  document.body.style = "background: " + color;
+  document.body.style.backgroundColor = color;
   document.querySelector("#intro_text").innerText = "Lauryn Noelle Hill (born May 26, 1975) is an American singer, rapper, songwriter, and record producer. She is recognized by music critics as one of the most influential musical artists of her time. Hill is credited with breaking barriers for female rappers, contributing to the mainstream success of both hip-hop and neo soul, and blending rap with melodic vocals. She has been named one of the 50 Great Voices by NPR, and one of the 200 Greatest Singers of All Time by Rolling Stone. In 2015, Billboard ranked her the greatest female rapper. Among her accolades are eight Grammy Awards—the most for any female rapper. Doo Wop (That Thing) became Hill's first and only US Billboard Hot 100 number one hit. It marked the first US number one written, produced and recorded by one sole woman since Debbie Gibson's Lost in Your Eyes (1989). It debuted atop the Billboard Hot 100, making it the first hip hop song by a soloist to debut at number one, and the first debut single to premiere atop the chart. It also marked the first song by a female rapper to peak at number one on the Hot 100, and remained the only solo song by a female rapper to debut at number one for more two decades."
 };
