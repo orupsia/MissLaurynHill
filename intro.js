@@ -1,6 +1,6 @@
 window.onload = (event) => {
    let color = "#ccbeae";
-  if ( window.innerWidth < 500 ) {
+  if ( window.innerWidth < 700 ) {
     color = "#e7c396";
   }
   document.body.style.backgroundColor = color;
