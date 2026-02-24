@@ -33,10 +33,14 @@ h5 {
     background-color: #ccbeae;
 }
 
-#intro {
+#top {
     width:100vw;
     display:flex;
     flex-wrap:wrap;
+}
+
+p {
+    font-size: calc(100vw - 3);
 }
 
 #column_1 {
